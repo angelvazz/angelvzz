@@ -1,0 +1,94 @@
+.componente-madre{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+
+.contac-img{
+    max-width: 40vw;
+}
+
+.form-contac{
+    margin-left: 2rem;
+    background-color: #fff;
+    display: grid;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    max-width: 20vw;
+    max-height: 70vh;
+    border-radius: 1rem;
+    
+}
+
+@media screen and (max-width: 850px) {
+    .componente-madre{
+        display: grid;
+        justify-content: center;
+    }
+
+    .cont-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contac-img{
+        max-width: 80vw;
+        margin-bottom: 1rem;
+    }
+
+    
+    .form-contac{
+        margin-left: 0rem;
+        background-color: #fff;
+        padding: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        max-height: 100vh;
+        max-width: 80vw;
+        border-radius: 1rem;
+    }
+}
+
+
+@Media screen and (min-width: 900px), (max-width: 1024){
+    .form-contac{
+        margin-left: 2rem;
+        background-color: #fff;
+        display: grid;
+        padding: 1rem;
+        max-width: 30vw;
+        max-height: 55vh;
+        border-radius: 1rem;
+        
+    }
+    .contac-img{
+        max-width: 55vw;
+        margin-bottom: 1rem;
+    }
+}
+
+@Media screen and (min-width: 1030px), (max-width: 1440){
+    .componente-madre{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 7rem;
+    }
+    
+    .contac-img{
+        max-width: 40vw;
+    }
+    
+    .form-contac{
+        margin-left: 2rem;
+        background-color: #fff;
+        display: grid;
+        padding: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        max-width: 20vw;
+        max-height: 70vh;
+        border-radius: 1rem;
+        
+    }
+}

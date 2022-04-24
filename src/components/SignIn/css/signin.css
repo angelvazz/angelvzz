@@ -1,0 +1,16 @@
+.grid-fondo{
+    background-image: url(../images/coding.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+.link-back-home{
+    color: blue;
+    
+}
+
+.link-back-home:hover{
+    color: rgb(78, 78, 223);
+    text-decoration: underline;
+   
+}

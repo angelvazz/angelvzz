@@ -1,0 +1,35 @@
+.cont-madre-ofertas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cont-ofertas{
+    background-color: #fff;
+    max-height: 50vh;
+    max-width: 20vw;
+}
+
+.cont-ofertas-eco{
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+}
+
+.juguetes-img{
+    margin-bottom: .5rem;
+    max-width: 14vw;
+}
+
+@media screen and (max-width: 850px){
+    .cont-madre-ofertas{
+        display: grid;
+        justify-content: center;
+    }
+
+    .juguetes-img{
+        max-width: 50vw;
+    }
+}

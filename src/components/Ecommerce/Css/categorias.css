@@ -1,0 +1,17 @@
+.h1-categorias{
+    background-color: #fff;
+    padding-left: 8rem;
+}
+
+.avatar-categorias{
+    display: flex;
+    padding: .5rem 0 1rem 0;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+
+.p-categorias{
+    display: grid;
+    font-size: 20px;
+    justify-content: center;
+}

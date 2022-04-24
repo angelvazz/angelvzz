@@ -1,0 +1,134 @@
+.cont-madre-goals{
+    margin-bottom: 7rem;
+}
+
+
+.h1-goals{
+    color: #fff;
+    display: grid;
+    justify-content: center;   
+}
+
+.cont-goals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-img{
+    max-width: 30vw;
+    margin-right: 2rem;
+}
+
+.cont-mision-vision{
+    display: flex;
+}
+
+.cont-mision{
+    display: grid;
+    align-items: center;
+    margin-right: 2rem;
+    max-width: 20vw;
+    max-height: 20vh;
+    color: #fff;
+}
+
+.cont-vision{
+    display: grid;
+    align-items: center;
+    max-width: 20vw;
+    max-height: 20vh;
+    color: #fff;
+}
+
+@media screen and (max-width: 850px){
+    
+    .cont-madre-goals{
+        margin-bottom: 3rem;
+    }
+    .cont-goals{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h1-goals{
+        color: #fff;
+        display: grid;
+        justify-content: center;   
+        margin-bottom: 1rem;
+    }
+    
+    .team-img{
+        max-width: 80vw;
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cont-mision-vision{
+        display: grid;
+    }
+    
+    .cont-mision{
+        display: grid;
+        align-items: center;
+        margin-right: 0rem;
+        max-width: 90vw;
+        max-height: 32vh;
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+    
+    .cont-vision{
+        display: grid;
+        align-items: center;
+        max-width: 90vw;
+        max-height: 28vh;
+        color: #fff;
+    }
+}
+
+@Media screen and (min-width: 900px), (max-width: 1024){
+    .cont-madre-goals{
+        margin-bottom: 6rem;
+    }
+    
+    .h1-goals{
+        color: #fff;
+        display: grid;
+        justify-content: center;   
+    }
+    
+    .cont-goals{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .team-img{
+        max-width: 30vw;
+        margin-right: 2rem;
+    }
+    
+    .cont-mision-vision{
+        display: flex;
+    }
+    
+    .cont-mision{
+        display: grid;
+        align-items: center;
+        margin-right: 2rem;
+        max-width: 25vw;
+        max-height: 20vh;
+        color: #fff;
+    }
+    
+    .cont-vision{
+        display: grid;
+        align-items: center;
+        max-width: 25vw;
+        max-height: 20vh;
+        color: #fff;
+    }
+}
+
